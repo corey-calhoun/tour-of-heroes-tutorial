@@ -1,5 +1,11 @@
 <h1>{{ title }}</h1>
 
+<nav>
+  <a routerLink="/heroes">Heroes</a>
+  <a routerLink="/dashboard">Dashboard</a>
+
+</nav>
+
 <!-- use ELEMENT SELECTOR to add component -->
-<app-heroes></app-heroes>
+<router-outlet></router-outlet>
 <app-messages></app-messages>
